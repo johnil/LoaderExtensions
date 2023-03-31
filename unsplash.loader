@@ -1,0 +1,31 @@
+loader.scriptInfo = {
+    "host": ["unsplash.com"],
+    "author": "Loader",
+    "version": 1.0,
+    "mode": "mobile"
+}
+
+
+
+loader.decodeConfigs = {
+    "selectors": {
+        "listItems": {
+            "root": "figure",
+            "cover": "div.VQW0y img.YVj9w",
+            "url": "a.rEAWd",
+            "user": {
+                "avatar": "div.Fw1fz img.D1hjc",
+                "url": "div.Fw1fz a.ZNlY9",
+                "name": "div.yzAnJ span.yayNa a.N2odk"
+            }
+        },
+        "detailItems": {
+            "items": {
+                "root": "div.btXSB",
+                "photo": "img.YVj9w"
+            },
+            "relatedTags": "div.VZRk3 div.bmeX6 a",
+            "moreItems": "listItems"
+        }
+    }
+}
