@@ -5,7 +5,22 @@ loader.scriptInfo = {
     "mode": "mobile"
 }
 
-
+loader.appConfigs = {
+    "searchUrl": "https://unsplash.com/s/photos/$keyword",
+    "tabs": [
+        {
+            "title": "首页",
+            "icon": "newspaper.fill", //SF Symbols or icon url
+            "pages": [
+                {
+                    "title": "首页",
+                    "url": "https://unsplash.com",
+                    "style": 1,
+                }
+            ]
+        }
+    ]
+}
 
 loader.decodeConfigs = {
     "selectors": {
